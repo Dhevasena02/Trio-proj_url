@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+    />
+    <title>URL Shortener</title>
+    <style>
+        body {
+            background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg');
+            background-size: 1500px;
+            background-position: center;
+            font-family: 'Arial', sans-serif;
+            font-size: 30px;
+         }
+         .content {
+            text-align: center;
+            padding: 50px;
+        }
+        </style>
+  </head>
+  <body>
+    <center>
+      <a class="title" href="./" style="text-decoration: none;">
+        <h1>URL Shortener</h1>
+      </a>
+      <br />
+      <form>
+        <div>
+          <input type="url" name="url" placeholder="enter a url" required />
+          </div>
+        <br />
+        <input type="submit" value="shorten!" />
+      </form>
+      <br />
+    <br />
+      <div id="response"></div>
+    </center>
+    <script type="module" src="./index.mjs.js"></script>
+    </body>
+
+</html>
